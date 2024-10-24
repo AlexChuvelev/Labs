@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #1e5f37;
+  color: white;
+  font-family: "Poppins";
+  font-size: 15px;
+}
+
+.header--paddings {
+  padding-top: 2.5em;
+  padding-bottom: 0.5em;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.numpad {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.login-zone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.login-zone__login {
+  background: linear-gradient(to bottom right, #ff7b4e, #ff584e);
+  border-radius: 100px;
+  height: 3em;
+  width: 8em;
+  border: 0px;
+  font: inherit;
+  color: white;
+}
