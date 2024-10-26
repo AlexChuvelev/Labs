@@ -8,11 +8,10 @@
   color: white;
   font-family: "Poppins";
   font-size: 15px;
-}
-
-.header--paddings {
   padding-top: 2.5em;
   padding-bottom: 0.5em;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
 }
 
 .logo {
