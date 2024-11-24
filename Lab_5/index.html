@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Register</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </head>
+  <body class="body">
+    <img src="" alt="Your Logo" class="logo" />
+    <div class="main-sign-up-zone">
+      <div class="sign-up-form">
+        <h2 class="sign-up-form__welcome">Welcome !</h2>
+        <h1 class="sign-up-form__do-text">
+          Sign up to
+          <div class="sign-up-form__destination">
+            <span class="site-name">Lorem Ipsum</span>
+            is simply
+          </div>
+        </h1>
+        <div class="sign-up-form__input-item">
+          <div class="sign-up-form__email-text">Email</div>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            class="sign-up-form__email-input sign-up-form__input"
+          />
+        </div>
+        <div class="sign-up-form__input-item">
+          <div class="sign-up-form__username-text">User name</div>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Enter your user name"
+            class="sign-up-form__username-input sign-up-form__input"
+          />
+        </div>
+        <div class="sign-up-form__input-item">
+          <div class="sign-up-form__password-text">Password</div>
+          <div class="sign-up-form__input-with-toggler">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your Password"
+              autocomplete="on"
+              class="sign-up-form__password-input sign-up-form__input"
+            />
+            <span
+              onclick="togglePassword(1)"
+              class="sign-up-form__toggle-password eye-hidden"
+              id="password-toggler"
+            ></span>
+          </div>
+        </div>
+        <div class="sign-up-form__input-item">
+          <div class="sign-up-form__confrim-text">Confrim Password</div>
+          <div class="sign-up-form__input-with-toggler">
+            <input
+              type="password"
+              id="confrim"
+              name="confrim"
+              autocomplete="on"
+              placeholder="Confrim your Password"
+              class="sign-up-form__confrim-input sign-up-form__input"
+            />
+            <span
+              onclick="togglePassword(0)"
+              class="sign-up-form__toggle-password eye-hidden"
+              id="confrim-toggler"
+            ></span>
+          </div>
+        </div>
+        <input
+          type="button"
+          value="Register"
+          name="register"
+          class="sign-up-form__button"
+        />
+        <div class="sign-up-form__register-text">
+          Already have an Account ?
+          <strong href="" class="sign-up-form__register-link">Register</strong>
+        </div>
+      </div>
+      <img
+        src="img/small-team-discussing-ideas.png"
+        alt="Sign up motivation picture"
+        class="sign-up-img"
+      />
+    </div>
+  </body>
+</html>

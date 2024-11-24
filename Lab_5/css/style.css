@@ -1,0 +1,198 @@
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.body {
+  margin: 0 auto;
+  padding: 25px 20px;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.main-sign-up-zone {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0px;
+  margin-top: 40px;
+}
+
+.sign-up-form {
+  box-sizing: border-box;
+  width: 505px;
+  border-style: solid;
+  border-color: #d1d1d1;
+  border-radius: 8px;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: stretch;
+  padding: 13px 32px;
+  padding-right: 43px;
+  padding-bottom: 25px;
+}
+
+.sign-up-form__welcome {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.sign-up-form__do-text {
+  font-size: 31px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.sign-up-form__destination {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.sign-up-form__input-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 5px 0px;
+}
+
+.sign-up-form__input-with-toggler {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sign-up-form__input {
+  flex: 1;
+  padding: 20px 23px;
+  border-radius: 6px;
+  font-size: 16px;
+  border-style: solid;
+  border-color: #888888;
+  border-width: thin;
+}
+
+.sign-up-form__input::placeholder {
+  color: #cbcbcb;
+  font-size: 14px;
+}
+
+.sign-up-form__password-input {
+  padding-right: 60px;
+}
+
+.sign-up-form__confrim-input {
+  padding-right: 60px;
+}
+
+.sign-up-form__toggle-password {
+  background-size: cover;
+  background-position: center;
+  height: 21px;
+  width: 21px;
+  z-index: 2;
+  position: relative;
+  margin-left: -21px;
+  left: -25px;
+}
+
+.eye-hidden {
+  background-image: url("../img/hidden-eye.png");
+}
+
+.eye-shown {
+  background-image: url("../img/shown-eye.png");
+}
+.sign-up-form__button {
+  background-color: black;
+  color: white;
+  font: inherit;
+  font-weight: 500;
+  border-style: none;
+  border-radius: 6px;
+  padding: 13px;
+  margin: 13px 0px;
+  margin-bottom: 10px;
+}
+
+.sign-up-form__register-text {
+  flex: 1;
+  text-align: center;
+  color: #7d7d7d;
+  font-weight: 300;
+}
+
+.sign-up-form__register-link {
+  color: black;
+  font-weight: 600;
+}
+
+.sign-up-img {
+  width: 35%;
+  height: 35%;
+  margin: 0px 8%;
+}
+
+@media (orientation: portrait), (width: 360px) {
+  .sign-up-img {
+    display: none;
+  }
+
+  .body {
+    padding: 25px 25px;
+  }
+
+  .logo {
+    margin: 0px;
+    font-size: 18px;
+  }
+
+  .sign-up-form {
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .sign-up-form__welcome {
+    font-size: 19px;
+  }
+
+  .sign-up-form__do-text {
+    font-size: 25px;
+  }
+
+  .sign-up-form__register-text {
+    font-size: 12px;
+  }
+
+  .sign-up-form__toggle-password {
+    left: -17px;
+    margin-left: -25px;
+  }
+
+  .sign-up-form__input {
+    padding: 18px 18px;
+  }
+
+  .sign-up-form__password-input {
+    padding-right: 60px;
+  }
+
+  .sign-up-form__confrim-input {
+    padding-right: 60px;
+  }
+}
