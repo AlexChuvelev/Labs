@@ -1,0 +1,206 @@
+.desktop__pricing {
+  display: flex;
+  align-items: start;
+  flex-direction: row;
+  padding-bottom: 145px;
+}
+
+.desktop__pricing-lefthand {
+  width: 360px;
+  height: auto;
+}
+
+.desktop__pricing-ws {
+  flex: auto;
+}
+
+.desktop__pricing-description {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  width: 529px;
+  padding-top: 245px;
+  padding-right: 515px;
+}
+
+.desktop__pricing-title {
+  font-weight: 600;
+  font-size: 48px;
+  color: #18063c;
+  line-height: 70px;
+  margin: 0 auto;
+  margin-left: 0px;
+}
+
+.desktop__pricing-text {
+  font-size: 20px;
+  color: #404040;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+
+.desktop__pricing-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.desktop__pricing-button {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  font: inherit;
+  border: none;
+  border-radius: 40px;
+  gap: 8px;
+  padding: 25px 35px;
+}
+
+.desktop__pricing-img {
+  height: 22px;
+  width: auto;
+}
+
+.desktop__pricing-bdescription {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.desktop__pricing-btext {
+  font-size: 8px;
+  line-height: 12px;
+}
+
+.desktop__pricing-btitle {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 12px;
+}
+
+.desktop__pricing-righthand {
+  width: 470px;
+  height: auto;
+  padding-top: 300px;
+}
+
+.mobile__pricing {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  padding-top: 55px;
+  padding-bottom: 35px;
+}
+
+.mobile__pricing-something {
+  width: 70px;
+  height: auto;
+  margin-bottom: -30px;
+  margin-left: 180px;
+}
+
+.mobile__pricing-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #332c5c;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  padding-left: 25px;
+  margin-bottom: 20px;
+}
+
+.mobile__pricing-text {
+  font-size: 16px;
+  color: #404040;
+  line-height: 30px;
+  padding-left: 25px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+}
+
+.mobile__pricing-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 25px;
+}
+
+.mobile__pricing-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.mobile__pricing-button {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  font: inherit;
+  border: none;
+  border-radius: 40px;
+  gap: 8px;
+  padding: 25px 40px;
+}
+
+.mobile__pricing-bdescription {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mobile__pricing-img {
+  height: 22px;
+  width: auto;
+}
+
+.mobile__pricing-btext {
+  font-size: 8px;
+  line-height: 12px;
+}
+
+.mobile__pricing-btitle {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 12px;
+}
+
+.mobile__pricing-righthand {
+  width: 140px;
+  height: auto;
+}
+
+.apple-button {
+  color: white;
+  background-color: #ff553e;
+}
+
+.googleplay-button {
+  background-color: inherit;
+  border-color: #ff553e;
+  color: #ff553e;
+  border-style: solid;
+  border-width: 1px;
+}

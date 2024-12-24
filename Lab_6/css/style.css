@@ -1,0 +1,39 @@
+@import url(header.css);
+@import url(demos.css);
+@import url(features.css);
+@import url(pricing.css);
+@import url(footer.css);
+
+.body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  opacity: 0.8;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.mobile {
+  display: none;
+}
+
+.peach-background {
+  background-color: #fff8f2;
+}
+
+@media only screen and (max-device-width: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
